@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+.acme-regular {
+    font-family: "Acme", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .aDesactive{
+    pointer-events: none;
+    color: #7CFCB4;
+  }
+menu{
+    display: flex;
+    width: 100vw;
+    height: 14vb;
+    border-bottom: 1vb solid #0C700E;
+    align-items: center;
+    justify-content: space-around;
+
+    #logo{
+        width: auto;
+        height: 10vb;
+    }
+    img{
+        width: auto;
+        height: 4vb;
+    }
+    div{
+        height: 100%;
+        display: flex;
+        width: 40%;
+        align-items: flex-end;
+
+        nav{
+            display: flex;
+            border-radius: 25px 25px 0 0;
+            justify-content: space-evenly;
+            background-color: #4C9A4C;
+            width: 100%;
+            height: 45%;
+            align-items: center;
+
+            a{
+                color: white;
+                font-size: 1.7rem;
+            }
+        }
+    }
+    input{
+        width: 7%;
+        height: 5vb;
+        border-radius: 20px;
+        border: none;
+        font-size: 1.7rem;
+        cursor: pointer;
+    }
+    #login{
+        background-color: #4C9A4C;
+        color: white;
+    }
+    #cadastro{
+        background-color: rgb(204, 204, 204);
+    }
+}  
