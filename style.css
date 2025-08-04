@@ -15,10 +15,16 @@ a{
     font-weight: 400;
     font-style: normal;
   }
-  .aDesactive{
+.abel-regular {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.aDesactive{
     pointer-events: none;
     color: #7CFCB4;
-  }
+}
 menu{
     display: flex;
     width: 100vw;
@@ -71,4 +77,31 @@ menu{
     #cadastro{
         background-color: rgb(204, 204, 204);
     }
+}
+main{
+
+    #banner{
+        width: 100vw;
+        height: 55vb;
+        background-size: 100% 100%;
+        background-image: url(assets/banner1.png);
+        margin-bottom: 60px;
+    }
+    #produtos{
+        display: flex;
+        width: 100vw;
+        height: 24vb;
+        div{
+            margin-left: 2%;
+            width: 10vw;
+            height: 22vb;
+            text-align: center;
+            img{
+                width: 100%;
+                height: 80%;
+                border-radius: 10%;
+            }
+        }
+    }
+    
 }  
