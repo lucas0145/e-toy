@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+main{
+    margin-top: 5%;
+    div{
+        margin-left: 6%;
+        vertical-align: top;
+        width: 46%;
+        font-size: 2rem;
+        display: inline-block;
+        margin-right: 4%;
+
+        h1{
+            margin-bottom: 5%;
+        }
+    }
+    img{
+        width: 40%;
+        border-radius: 10%;
+    }
+    >p{
+        margin-top: 2%;
+        font-size: 2rem;
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+}

@@ -1,0 +1,15 @@
+main{
+    >div{
+        display: inline-block;
+        width: 50%;
+    }
+    #div-txt{
+        font-size: 2rem;
+        h1{
+            padding: 12% 0% 0 10%;
+        }
+        p{
+            padding: 5% 0 0 10%;
+        }
+    }
+}
