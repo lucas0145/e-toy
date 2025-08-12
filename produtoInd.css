@@ -1,0 +1,29 @@
+body{
+    overflow-y: hidden;
+}
+main{
+    display: flex;
+    #imagens{
+        width: 60%;
+        margin: 2% 0 0 5%; 
+
+        img{
+            border-radius: 20px;
+            height: 60vb;
+        }
+    }
+    #div-compra{
+        width: 40%;
+        text-align: center;
+
+        #info-prod{
+            text-align: left;
+            background-color: #7CFCB4;
+            height: 100vb;
+            border-radius: 25px;
+            width: 95%;
+            margin-top: 5%;
+        }
+    }
+
+}

@@ -1,0 +1,35 @@
+section{
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    padding: 0% 7% 0% 7%;
+    
+
+    a{
+        width: 15%;
+        margin: 0.5% 1.5%;
+    }
+    div{
+        color: black;
+        width: 100%;
+        text-align: left;
+        h1{
+            font-weight: 500;
+        }
+        h2{
+            font-weight: 200;
+        }
+        img{
+            width: 100%;
+            border-radius: 15px;
+            background-color: gainsboro;
+        }
+        transition: all 0.5s;
+        border-radius: 15px;
+    }
+    div:hover{
+        transform: scale(110%);
+        border: black 1px solid;
+    }
+}

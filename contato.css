@@ -18,7 +18,7 @@ main{
         display: flex;
         justify-content: center;
         align-items: center;
-        section{
+        form{
             display: flex;
             align-content: center;
             flex-direction: column;
@@ -65,6 +65,10 @@ main{
                     color: white;
                     text-align: center;
                     font-size: 1.3rem;
+                    transition: all 0.5s;
+                }
+                #btn-enviar:hover{
+                    filter: brightness(80%);
                 }
             }
         }
