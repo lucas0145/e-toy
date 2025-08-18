@@ -1,29 +1,39 @@
 body{
-    overflow-y: hidden;
 }
 main{
     display: flex;
+
     #imagens{
         width: 60%;
         margin: 2% 0 0 5%; 
 
         img{
             border-radius: 20px;
-            height: 60vb;
+            height: 50vb;
+        }
+
+        #mini-imgs{
+            img{
+                height: 20vb;
+            }
         }
     }
-    #div-compra{
+    #info-prod{
+        background-color: #7CFCB4;
+        height: 150vb;
         width: 40%;
-        text-align: center;
+        padding: 3% 2%;
 
-        #info-prod{
-            text-align: left;
-            background-color: #7CFCB4;
-            height: 100vb;
-            border-radius: 25px;
-            width: 95%;
-            margin-top: 5%;
+        h1{
+            margin: 2% 0 3% 0;
+            font-size: 2rem;
+        }
+        h2{
+            font-weight: bold;
+        }
+        h3{
+            font-size: 1.6rem;
+            font-weight: 200;
         }
     }
-
 }

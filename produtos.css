@@ -29,7 +29,6 @@ section{
         border-radius: 15px;
     }
     div:hover{
-        transform: scale(110%);
-        border: black 1px solid;
+        transform: scale(105%);
     }
 }
