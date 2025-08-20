@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>E-toy</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="cadastro.css">
     <link rel="icon" href="assets/Logo.png" type="image/png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,7 +24,7 @@
             <nav>
                 <a href="index.html">Inicio</a>
                 <a href="about.html">Quem Somos</a>
-                <a href="contato.html" class="aDesactive">Contato</a>
+                <a href="contato.html">Contato</a>
                 <a href="produtos.html">Produtos</a>
             </nav>
         </div>
@@ -35,31 +35,28 @@
             <img src="assets/lupa.png" alt="">
         </a>
         <input type="button" name="" id="login" value="Login" class="acme-regular">
-        <input type="button" name="" onclick="location.href = 'cadastro.html'" id="cadastro" class="acme-regular" value="Cadastro">
+        <input type="button" name="" onclick="location.href = 'cadastro.html'" id="cadastro" class="acme-regular aDesactive" value="Cadastro">
     </menu>
 
     <main>
-        <div id="div-txt" class="abel-regular">
-            <h1>Contate-nos</h1>
-            <p>Sed sit amet accumsan lectus, id bibendum sapien. Sed euismod bibendum urna, at lobortis sapien commodo vitae. Quisque a varius ante, sit amet cursus massa. Curabitur pellentesque orci eget augue facilisis commodo. </p>
-        </div>
         <div id="div-form">
             <form class="abel-regular">
-                <div>
-                    <h2>Nome</h2>
-                    <input type="text">
-                </div>
+                <h1>Cadastre-se</h1>
                 <div>
                     <h2>E-mail</h2>
                     <input type="text">
                 </div>
                 <div>
-                    <h2>Assunto</h2>
+                    <h2>Senha</h2>
+                    <input type="password">
+                </div>
+                <div>
+                    <h2>Nome</h2>
                     <input type="text">
                 </div>
                 <div>
-                    <h2>Mensagem</h2>
-                    <textarea name="" id="input-msg"></textarea>
+                    <h2>Telefone</h2>
+                    <input type="tel" name="" id="">
                 </div>
                 <div id="div-enviar" >
                     <input type="reset" id="btn-enviar" value="Enviar Mensagem" class="acme-regular">

@@ -30,6 +30,10 @@ a{
         filter: invert(50%);
     }
 }
+input.aDesactive{
+    background-color: rgb(49, 49, 49) !important;
+    color: white;
+}
 menu{
     display: flex;
     width: 100vw;

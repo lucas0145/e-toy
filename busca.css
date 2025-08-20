@@ -1,0 +1,81 @@
+main{
+    display: flex;
+}
+input[type="checkbox"] {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 0.5%;
+    top: 29%;
+}
+input[type="checkbox"]:checked ~ section .madeira{
+    display: block;
+}
+input[type="checkbox"]:checked ~ section a{
+    display: none;
+}
+nav{
+    display: inline-block;
+    width: 20vw;
+    background-color: #4C9A4C;
+    height: 100vb;
+    color: white;
+
+    h2{
+        text-align: center;
+        font-size: 3rem;
+        padding: 2vb 0;
+    }
+    >span{
+        background-color: #0C700E;
+        width: 100%;
+        height: 1vb;
+        display: block;
+    }
+    #filter-box{
+        margin-top: 3vb;
+        width: 100%;
+        padding: 0 1vw 0 2vw;
+        span{
+            width: 100%;
+            display: flex;
+            margin: 1vb 0;
+            font-size: 1.2rem;
+            font-family: Abel;
+        }
+    }
+}
+section{
+    display: flex;
+    width: 80vw;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 2vw;
+    
+    a{
+        width: 15%;
+        margin: 0.5% 1.5%;
+    }
+    div{
+        color: black;
+        width: 100%;
+        text-align: left;
+        h1{
+            font-weight: 500;
+        }
+        h2{
+            font-weight: 200;
+        }
+        img{
+            width: 100%;
+            border-radius: 15px;
+            background-color: gainsboro;
+        }
+        transition: all 0.5s;
+        border-radius: 15px;
+    }
+    div:hover{
+        transform: scale(105%);
+    }
+}

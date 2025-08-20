@@ -1,0 +1,58 @@
+main{
+    display: flex;
+    height: 86vb;
+    justify-content: center;
+    >div{
+        display: inline-block;
+        width: 50%;
+    }
+    #div-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        form{
+            h1{
+                text-align: center;
+                font-size: 2.5rem;
+            }
+            display: flex;
+            align-content: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            background-color: #7CFCB4;
+            border-radius: 25px;
+            width: 70%;
+            height: 90%;
+            padding-top: 8%;
+            #div-enviar{
+                text-align: right;
+                margin-top: 5%;
+            }
+            div{
+                margin-top: 5%;
+                width: 60%;
+                input{
+                    width: 100%;
+                    height: 4vb;
+                    border-radius: 25px;
+                    border: 0px;
+                    color: black;
+                    padding-left: 4%;
+                    font-size: 1.1rem;
+                }
+                #btn-enviar{
+                    width: 50%;
+                    height: 5vb;
+                    background-color: #4C9A4C;
+                    color: white;
+                    text-align: center;
+                    font-size: 1.3rem;
+                    transition: all 0.5s;
+                }
+                #btn-enviar:hover{
+                    filter: brightness(80%);
+                }
+            }
+        }
+    }
+}
