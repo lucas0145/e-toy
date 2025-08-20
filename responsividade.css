@@ -1,0 +1,195 @@
+@media (max-width: 550px){
+
+    menu {
+            #logo{
+                height: 7vb;
+            }
+            div{
+                width: 50%;
+
+                nav{
+                    a{
+                        width: 20%;
+                        font-size: 1rem;
+                    }
+                }
+            }
+            a{
+                img{
+                    height: 3vb;
+                }
+            }
+            a{
+                font-size: 1rem;
+            }
+            #login{
+                display: none;
+            }
+            #cadastro{
+                width: 15%;
+                font-size: 1.2rem;
+            }
+    }
+
+    #index-bd{
+        #banner{
+            height: 45vb;
+            img{
+                top: 0;
+            }
+        }
+        #produtos{
+            div{
+                width: 120px;
+            }
+        }
+    }
+    #about-bd{
+        main{
+            div{
+                display: block;
+                width: 100vw;
+                font-size: 1.2rem;
+            }
+            img{
+                width: 90vw;
+                margin: 5vb 5vw;
+            }
+            p{
+                font-size: 1.2rem;
+            }
+        }
+    }
+    #contato-bd{
+        overflow-x: hidden;
+        main{
+            flex-direction: column;
+            #div-txt{
+                font-size: 1.5rem !important;
+                width: 100vw;
+                p{
+                    padding-right: 10%;
+                }
+            }
+            #div-form{
+                margin: 0 2vw;
+                width: 100vw;
+                padding: 0 5vw;
+                form{
+                    width: 70vw;
+                    flex-direction: row;
+                    padding: 6vb 4vw;
+                    justify-content: center;
+                    font-size: 0.9rem;
+
+                    #div-enviar{
+                        input{
+                            width: 70%;
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #produtos-bd{
+        main{
+            font-size: 1rem !important;
+            a{
+                width: 20%;
+                margin: 4vb 2vw;
+            }
+        }
+    }
+    #prodInd-bd{
+        main{
+
+            #imagens{
+                height: 100vb;
+                >img{
+                    height: auto;
+                    width: 50vw;
+                }
+                #mini-imgs{
+                    img{
+                        height: auto;
+                        width: 25vw;
+                    }
+                }
+            }
+            #info-prod{
+                height: 105vb;
+                font-size: 0.8rem !important;
+            }
+        }
+    }
+    #carrinho-bd{
+        main{
+            #cart-org{
+                padding: 2%;
+                #buy-list{
+                    width: 55vw;
+                    font-size: 0.7rem !important;
+                    >div{
+                        align-items: center;
+                    }
+                    img{
+                        height: auto;
+                        width: 40%;
+                        margin-left: 2%;
+                    }
+                }
+                #pay-screen{
+                    width: 45vw;
+                    margin-left: 2vw;
+                }
+            }
+        }
+    }
+    #busca-bd{
+        main{
+            font-size: 0.8rem !important;
+
+                nav{
+                    h2{
+                        font-size: 2rem;
+                    }
+                    #filter-box{
+                        h3{
+                            font-size: 1.2rem;
+                            margin-left: 3vw;
+                        }
+                    }
+                }
+                input[type="checkbox"]{
+                    top: 27.5%;
+                    left: 1%;
+                    width: 15px;
+                    height: 15px;
+                }
+                section{
+                    height: min-content;
+                    a{
+                        width: 20%;
+                        height: min-content;
+                        margin: 4vb 1vw;
+                    }
+                }
+        }
+    }
+    #cadastro-bd{
+        main{
+            #div-form{
+                width: 90vw;
+                form{
+                    width: 100%;
+                    #div-enviar{
+                        input{
+                            width: 60%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
