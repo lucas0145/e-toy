@@ -24,6 +24,11 @@ a{
 .aDesactive{
     pointer-events: none;
     color: #7CFCB4;
+    fill: #7CFCB4;
+
+    img{
+        filter: invert(50%);
+    }
 }
 menu{
     display: flex;

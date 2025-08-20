@@ -1,0 +1,37 @@
+#cart-org{
+    display: flex;
+    width: 100vw;
+    padding: 2% 6%;
+    justify-content: center;
+
+    #buy-list{
+        border: 2px black solid;
+        width: 60%;
+        height: 80vb;
+        border-radius: 25px;
+        padding: 1%;
+
+        >div{
+            width: 100%;
+            height: 20vb;
+            background-color: #7cfcb4;
+            border-radius: 25px;
+            display: flex;
+            padding: 1%;
+
+            img{
+                height: 18vb;
+                border-radius: 25px;
+                margin-right: 5%;
+            }
+        }
+    }
+
+    #pay-screen{
+        width: 45%;
+        margin-left: 12%;
+        border-radius: 25px;
+        height: 80vb;
+        background-color: #7cfcb4;
+    }
+}
